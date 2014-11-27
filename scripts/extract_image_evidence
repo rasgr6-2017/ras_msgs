@@ -37,15 +37,17 @@
 import rospy
 from ras_msgs.msg import RAS_Evidence
 from sensor_msgs.msg import Image
-
+from std_msgs.msg import String
 
 class ExtractImageNode:
     def __init__(self):
         self._image_publisher = rospy.Publisher('/image_evidence', Image)
+        self._object_id_publisher = rospy.Publisher('/object_id', String)
         self._evidence_callback = rospy.Subscriber('/evidence', RAS_Evidence, self._evidenceCallback)
 
     def _evidenceCallback(self, evidence):
         self._image_publisher.publish(evidence.image_evidence)
+        self._object_id_publisher.publish(evidence.object_id)
 
 if __name__=="__main__":
     rospy.init_node('extract_image_evidence')
