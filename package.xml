@@ -6,10 +6,10 @@
   </description>
   <license>BSD</license>
 
-  <url type="website">https://anywiki.csc.kth.se/DD2425/doku.php?id=ras2014:cv_evidence</url>
+  <url type="website">https://anywiki.csc.kth.se/DD2425/doku.php?id=ras2017:cv_evidence</url>
 
   <author email="fevb@kth.se">Francisco Vina</author>
-  <maintainer email="fevb@kth.se">Francisco Vina</maintainer>
+  <maintainer email="diogoa@kth.se">Diogo Almeida</maintainer>
 
   <buildtool_depend>catkin</buildtool_depend>
 
