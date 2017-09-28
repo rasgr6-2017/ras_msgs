@@ -32,4 +32,4 @@ string patric=Patric
 # we only care about X,Y position coordinate
 geometry_msgs/TransformStamped object_location
 
-# More info: https://anywiki.csc.kth.se/DD2425/doku.php?id=ras2017:object_evidence
+# More info: https://anywiki.csc.kth.se/DD2425/doku.php?id=ras2015:object_evidence
